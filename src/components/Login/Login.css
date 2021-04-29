@@ -1,0 +1,75 @@
+.login {
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-inner {
+  padding: 50px;
+  border-radius: 8px;
+}
+.input {
+  font-size: 16px;
+  display: block;
+  border-radius: 10px;
+}
+.email-password-login {
+  border: 1px solid #b8b8b8;
+  padding: 8%;
+  border-radius: 7px;
+  min-width: 400px;
+}
+.password-section {
+  position: relative;
+}
+.eye {
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 88%;
+  cursor: pointer;
+  color: #6710f4;
+}
+.create-account {
+  cursor: pointer;
+}
+.create-account:hover {
+  text-decoration: underline;
+}
+.icon {
+  font-size: 40px;
+  cursor: pointer;
+}
+.fb {
+  color: #1094f4;
+}
+.google {
+  color: #e13e31;
+}
+.error {
+  max-width: 320px;
+}
+
+@media (max-width: 550px) {
+  .email-password-login {
+    min-width: 380px;
+  }
+}
+
+@media (max-width: 500px) {
+  .login {
+    min-height: 0;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .login-inner {
+    padding: 25px;
+  }
+  .email-password-login {
+    min-width: 0;
+  }
+  .eye {
+    left: 85%;
+  }
+}

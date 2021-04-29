@@ -1,0 +1,12 @@
+.product-list {
+  margin: 20px 0;
+  box-shadow: 10px 10px 30px lightgrey;
+  padding: 25px;
+  border-radius: 10px;
+}
+.product-list-details {
+  padding: 20px 0;
+  margin: 5px 0;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
