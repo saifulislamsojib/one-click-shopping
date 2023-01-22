@@ -1,31 +1,4 @@
 .product {
   border-radius: 10px;
-  box-shadow: 10px 10px 30px lightgrey;
-}
-.naming-space {
-  min-height: 80px;
-}
-
-@media (min-width: 768px) {
-  .product-image {
-    min-height: 300px;
-  }
-}
-
-@media (min-width: 992px) {
-  .product-image {
-    min-height: 200px;
-  }
-  .naming-space {
-    min-height: 110px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .product-image {
-    min-height: 230px;
-  }
-  .naming-space {
-    min-height: 80px;
-  }
+  box-shadow: 5px 5px 20px lightgrey;
 }
